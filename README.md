@@ -5,7 +5,7 @@ UI automated testing framework based on node.js and selenium webdriver. [http://
 
 Install Node.js and then:
 ```sh
-$ git clone git@github.com:shoarai/nightwatch.git
+$ git clone http://github.com/shoarai/nightwatch.git
 $ cd nightwatch
 $ npm install
 ```
