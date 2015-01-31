@@ -12,7 +12,7 @@ module.exports = {
     host: '127.0.0.1',
     port: 4444,
     cli_args: {
-      'webdriver.chrome.driver': './node_modules/.bin/chromedriver',
+      'webdriver.chrome.driver': './node_modules/chromedriver/lib/chromedriver/chromedriver.exe',
       'webdriver.ie.driver': './node_modules/dalek-browser-ie/lib/bin/IEDriverServer.exe'
     }
   },
