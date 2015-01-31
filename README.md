@@ -1,5 +1,5 @@
 # nightwatch
-UI automated testing framework based on node.js and selenium webdriver
+UI automated testing framework based on node.js and selenium webdriver [http://nightwatchjs.org](http://nightwatchjs.org)
 
 ### Install Nightwatch
 
