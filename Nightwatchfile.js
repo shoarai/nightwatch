@@ -12,8 +12,8 @@ module.exports = {
     host: '127.0.0.1',
     port: 4444,
     cli_args: {
-      'webdriver.chrome.driver': './node_modules/.bin/chromedriver',      // in mac
-      // 'webdriver.chrome.driver': './node_modules/.bin/chromedriver.cmd',  // in windows
+      'webdriver.chrome.driver': './node_modules/.bin/chromedriver',      // in Mac
+      // 'webdriver.chrome.driver': './node_modules/.bin/chromedriver.cmd',  // in Windows
       'webdriver.ie.driver': './node_modules/dalek-browser-ie/lib/bin/IEDriverServer.exe'
     }
   },
