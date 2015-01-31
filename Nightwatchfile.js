@@ -1,6 +1,6 @@
 module.exports = {
   src_folders: ['./tests/spec'],
-  output_folder: './results',
+  output_folder: './reports',
   custom_assertions_path: '',
   globals_path: './globals.json',
   live_output: true,
@@ -12,8 +12,8 @@ module.exports = {
     host: '127.0.0.1',
     port: 4444,
     cli_args: {
-      'webdriver.chrome.driver': './node_modules/.bin/chromedriver.cmd',  // in windows
-      // 'webdriver.chrome.driver': './node_modules/.bin/chromedriver',      // in mac
+      'webdriver.chrome.driver': './node_modules/.bin/chromedriver',      // in mac
+      // 'webdriver.chrome.driver': './node_modules/.bin/chromedriver.cmd',  // in windows
       'webdriver.ie.driver': './node_modules/dalek-browser-ie/lib/bin/IEDriverServer.exe'
     }
   },
@@ -27,12 +27,12 @@ module.exports = {
       disable_colors: false,
       screenshots: {
         enabled: true,
-        path: './results/screenshots'
+        path: './screen'
       },
       desiredCapabilities: {
         browserName: 'chrome',
         // browserName: 'firefox',
-        browserName: 'internet explorer',
+        // browserName: 'internet explorer',
         javascriptEnabled: true,
         acceptSslCerts: true
       }
