@@ -36,20 +36,6 @@ module.exports = {
         javascriptEnabled: true,
         acceptSslCerts: true
       }
-    },
-
-    chrome: {
-      desiredCapabilities: {
-        browserName: 'chrome',
-        javascriptEnabled: true
-      }
-    },
-
-    ie: {
-      desiredCapabilities: {
-        browserName: 'internet explorer',
-        javascriptEnabled: true
-      }
     }
   }
 };
