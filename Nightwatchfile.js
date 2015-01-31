@@ -30,8 +30,8 @@ module.exports = {
         path: './screen'
       },
       desiredCapabilities: {
-        browserName: 'chrome',
-        // browserName: 'firefox',
+        browserName: 'firefox',
+        // browserName: 'chrome',
         // browserName: 'internet explorer',
         javascriptEnabled: true,
         acceptSslCerts: true
