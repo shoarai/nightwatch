@@ -1,7 +1,7 @@
 # nightwatch
-UI automated testing framework based on node.js and selenium webdriver [http://nightwatchjs.org](http://nightwatchjs.org)
+UI automated testing framework based on node.js and selenium webdriver. [http://nightwatchjs.org](http://nightwatchjs.org)
 
-### Install Nightwatch
+### Install
 
 Install Node.js and then:
 ```sh
@@ -28,7 +28,7 @@ test_settings: {
       // browserName: 'internet explorer',
       ...
 ```
-To select chrome in mac:
+To select chrome in windows:
 ```js
 selenium: {
   cli_args: {
