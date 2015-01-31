@@ -4,7 +4,7 @@
   "author": "shoarai",
   "license": "MIT",
   "scripts": {
-    "test": "./node_modules/.bin/nightwatch -c ./Nightwatch.js --env default"
+    "test": "./node_modules/.bin/nightwatch -c ./Nightwatchfile.js --env default"
   },
   "dependencies": {
     "chromedriver": "~2.10.0-1",
