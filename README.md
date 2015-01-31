@@ -17,7 +17,8 @@ $ npm test
 ```
 
 ### Select browser
-To select browser for test, edit `Nigthwatchfile.js`:
+Tests run in `Firefox`, `Google Chrome` or `Internet explorer`.
+To select the browser, edit `Nigthwatchfile.js`:
 ```js
 test_settings: {
   default: {
@@ -28,11 +29,11 @@ test_settings: {
       // browserName: 'internet explorer',
       ...
 ```
-To select chrome in windows:
+To select `Chrome in Windows`:
 ```js
 selenium: {
   cli_args: {
-    'webdriver.chrome.driver': './node_modules/.bin/chromedriver.cmd',  // in windows
-    // 'webdriver.chrome.driver': './node_modules/.bin/chromedriver',      // in mac
+    'webdriver.chrome.driver': './node_modules/.bin/chromedriver.cmd',  // in Windows
+    // 'webdriver.chrome.driver': './node_modules/.bin/chromedriver',      // in Mac
     ...
 ```
