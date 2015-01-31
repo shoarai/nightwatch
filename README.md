@@ -17,7 +17,7 @@ $ npm test
 ```
 
 ### Select browser
-Tests run in `Firefox`, `Google Chrome` or `Internet explorer`.
+Tests run in `Firefox`, `Google Chrome` or `Internet Explorer`.
 To select the browser, edit `Nigthwatchfile.js`:
 ```js
 test_settings: {
