@@ -33,7 +33,7 @@ To select `Chrome in Windows`:
 ```js
 selenium: {
   cli_args: {
-    'webdriver.chrome.driver': './node_modules/.bin/chromedriver.cmd',  // in Windows
     // 'webdriver.chrome.driver': './node_modules/.bin/chromedriver',      // in Mac
+    'webdriver.chrome.driver': './node_modules/.bin/chromedriver.cmd',  // in Windows
     ...
 ```
