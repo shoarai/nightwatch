@@ -3,5 +3,6 @@
 coverage
 doc
 node_modules
-results
+reports
+screen
 logs
