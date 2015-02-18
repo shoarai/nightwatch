@@ -12,5 +12,8 @@
     "nightwatch": "~0.5.6",
     "nightwatch-pages": "*",
     "selenium-server": "^2.44.0"
+  },
+  "devDependencies": {
+    "gulp-nightwatch": "0.0.2"
   }
 }
