@@ -13,7 +13,7 @@ $ npm install
 ### Usage
 To run tests:
 ```sh
-$ gulp
+$ npm test
 ```
 
 ### Select browser
